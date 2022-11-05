@@ -1,0 +1,56 @@
+
+.header__inner {
+  margin: 30px 30px 70px;
+  font-family: 'Arial', sans-serif;
+}
+
+.user {
+  display: flex;
+  color: #fff;
+
+
+}
+
+.user-pic {
+  position: relative;
+}
+
+.user-pic img {
+  width: 9em;
+  height: 9em;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #fff;
+  border-radius: 5%;
+}
+
+.user-pic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(5, 5, 5, 0.1);
+}
+
+.user-desc {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.user-name {
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+.user-cont {
+  font-size: 1.3em;
+  margin-bottom: 16px;
+}
+
+.skills {
+  font-size: 1.3em;
+}
