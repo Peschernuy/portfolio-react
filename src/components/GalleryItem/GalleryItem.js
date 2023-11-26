@@ -13,7 +13,7 @@ const GalleryItem = ({ id, title, technologies, img, url }) => {
       <div className={`gallery__item-content ${disable && 'disable'}`}>
         <div className="gallery__item-title">{title}</div>
         <div className="gallery__item-desc">{technologies}</div>
-        <div className="gallery__item-btn">Demo previe</div>
+        <div className="gallery__item-btn">Demo previews</div>
       </div>
       <a href={url} className="gallery__item-link" />
     </div>
